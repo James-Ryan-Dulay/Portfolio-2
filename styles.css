@@ -344,14 +344,14 @@ footer .footer-image p {
 }
 
 @media screen and (max-width: 1554px) {
-    .main-content .big-image p {
-        font-size: 25px;
-        line-height: 180%;
-    }
     .big-image-lowerlink a {
         font-size: 25px;
     }
     .small-image-lowerlink a {
         font-size: 25px;
     }
+    .main-content .big-image p {
+        font-size: 25px;
+    }
 }
+
