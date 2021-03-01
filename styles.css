@@ -53,7 +53,10 @@ body {
     align-items: center;
     padding: 5px;
     justify-content: space-between;
-    width: 400px;
+}
+
+#searchspace {
+    width: 40vw;
 }
 
 .header .magnifying {
@@ -228,9 +231,9 @@ footer .footer-image p {
 
 /* <----------------- Media Queries -----------------> */
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 281px) {
     .header .searchbar {
-        width: 215px;
+        width: 200px;
     }
     footer img {
         width: 120px;
@@ -283,6 +286,12 @@ footer .footer-image p {
     }
 }
 
+@media screen and (max-width: 997px) {
+    footer {
+        justify-content: space-around;
+    }
+}
+
 @media screen and (max-width: 1359px) {
     .main-content .big-image p {
         text-align: center;
@@ -328,7 +337,9 @@ footer .footer-image p {
 @media screen and (max-width: 1260px) {
     footer img {
         margin: 0px 43px;
+        padding: 10px;
     }
+    
 }
 
 @media screen and (max-width: 1554px) {
